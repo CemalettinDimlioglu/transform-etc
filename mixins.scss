@@ -2,20 +2,20 @@ div{
      float: left;
 }
 
-@mixin box{
-     width: 100px;
+@mixin box ($color, $width) {
+     width: $width;
      height: 100px;
-     background-color: rgb(34, 0, 255);
+     background-color: $color;
      margin: 15px;
 }
 
 #first{
-@include box()
+@include box(red, 200px)
      
 }
 #second{
-@include box()
+@include box(navy, 300px)
 }
 #third{
-@include box()
+@include box(yellow, 400px)
 }

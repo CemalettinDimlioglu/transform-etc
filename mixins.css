@@ -3,22 +3,22 @@ div {
 }
 
 #first {
-  width: 100px;
+  width: 200px;
   height: 100px;
-  background-color: rgb(34, 0, 255);
+  background-color: red;
   margin: 15px;
 }
 
 #second {
-  width: 100px;
+  width: 300px;
   height: 100px;
-  background-color: rgb(34, 0, 255);
+  background-color: navy;
   margin: 15px;
 }
 
 #third {
-  width: 100px;
+  width: 400px;
   height: 100px;
-  background-color: rgb(34, 0, 255);
+  background-color: yellow;
   margin: 15px;
 }/*# sourceMappingURL=mixins.css.map */
