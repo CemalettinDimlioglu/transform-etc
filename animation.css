@@ -1,0 +1,35 @@
+body {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+}
+
+@keyframes a1{
+     to{
+          width: 500px;
+          background-color: magenta;
+     }
+     
+}
+
+.box:hover {
+     animation-name: a1 ;
+     animation-duration: 2s;
+     animation-iteration-count: 2;
+     animation-fill-mode: backwards ;
+     animation-delay: 2s;
+     animation-direction: alternate;
+     animation-direction: reverse;
+     animation-direction: alternate-reverse;
+     animation-timing-function: ease-in;
+}
+
+

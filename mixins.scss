@@ -1,0 +1,21 @@
+div{
+     float: left;
+}
+
+@mixin box{
+     width: 100px;
+     height: 100px;
+     background-color: rgb(34, 0, 255);
+     margin: 15px;
+}
+
+#first{
+@include box()
+     
+}
+#second{
+@include box()
+}
+#third{
+@include box()
+}

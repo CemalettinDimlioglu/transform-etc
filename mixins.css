@@ -1,0 +1,24 @@
+div {
+  float: left;
+}
+
+#first {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(34, 0, 255);
+  margin: 15px;
+}
+
+#second {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(34, 0, 255);
+  margin: 15px;
+}
+
+#third {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(34, 0, 255);
+  margin: 15px;
+}/*# sourceMappingURL=mixins.css.map */
